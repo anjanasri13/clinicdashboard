@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+#inputID::placeholder {
+  color: #DEDEDE;
+  opacity: 2;
+}
+#input::placeholder {
+  color: #000000;
+  opacity: 2;
+}
+#button:hover{
+  color: white;
+}
