@@ -1,4 +1,5 @@
-import { Button, TextField } from "@mui/material";
+import { TextField } from "@mui/material";
+import { Button } from 'antd';
 import React from "react";
 import { navigate, useNavigate } from "react-router-dom";
 import Main from "../components/Main";
@@ -30,7 +31,7 @@ export default function Login() {
             id="standard-basic"
             label="User Name"
             variant="standard"
-            className="w-[50%]"
+            className="w-[60%]"
           />
           <br />
           <br />
@@ -39,36 +40,36 @@ export default function Login() {
             label="Password"
             type="password"
             variant="standard"
-            className="w-[50%]"
+            className="w-[60%]"
            
           />
           <br />
           <br />
         </div>
-          <button className="ml-[230px] w-[260px] h-[49px] font-[16px] bg-[#1565C0] rounded-[20px] text-white"  onClick={navigateHome}>Login</button>
+          <button className="ml-[230px] w-[310px] h-[49px] text-[20px] bg-[#1565C0] rounded-[20px] text-white font-normal"  onClick={navigateHome}>Login</button>
         <p
-          className="text-[22px] font-normal text-[#000000] ml-[280px] mt-[25px]"
+          className="text-[22px] font-normal text-[#000000] ml-[300px] mt-[25px]"
           onClick={forget}
         >
           Forgot password?
         </p>
-        <Button
-          variant="contained"
-          style={{
-            marginLeft: "230px",
-            width: "260px",
+        <Button shape="round" id='button'  style={{
+           backgroundColor:'#1565C0',
+            marginLeft: "260px",
+            width: "250px",
             height: "49px",
             borderRadius: "20px",
             color: "#FAFAFA",
-            fontSize: "16px",
+            fontSize: "20px",
             marginTop: "15px",
+           fontWeight:'normal'
           }}
           onClick={sign}
         >
           I’M NEW HERE
         </Button>
         <button
-          className="text-[22px] font-normal text-[#000000] ml-[280px] mt-[20px]"
+          className="text-[22px] font-normal text-[#000000] ml-[300px] mt-[20px]"
          
         >
           Continue As Guest

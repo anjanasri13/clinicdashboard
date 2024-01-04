@@ -9,8 +9,24 @@ import MailBox from './pages/MailBox';
 import Changepassword from './pages/Changepassword';
 import Verifypassword from './pages/Verifypassword';
 import Country from './pages/Country';
+import Programs from './pages/Programs';
+import Activity from './pages/Activity';
+import Support from './pages/Support';
+import Feedback from './pages/Feedback';
+import Account from './pages/Account';
+import Save from './pages/Save';
+import { Fab } from '@mui/material';
+import Faq from './pages/Faq';
+import Dairy from './pages/Dairy';
+import Course2 from './pages/Course2';
+
+
+
+
 
 function App() {
+
+  const dateArray = ['2024-01-01', '2024-01-02', '2024-01-03', '2024-01-04'];
   return (
    <div>
     <Routes>
@@ -22,7 +38,18 @@ function App() {
       <Route path="/changepass" element={<Changepassword/>}/>
       <Route path="/verify" element={<Verifypassword/>}/>
       <Route path="/country" element={<Country/>}/>
+      <Route path='/dairy' element={<Dairy/>}/>
+      <Route path="/programs" element={<Programs/>}/>
+      <Route path="/activity" element={<Activity/>}/>
+      <Route path="/account" element={<Account/>}/>
+      <Route path="/save" element={<Save/>}/>
+      <Route path="/support" element={<Support/>}/>
+      <Route path="/feedback" element={<Feedback/>}/>
+      <Route path="/faq" element={<Faq/>}/>
+      <Route path="/course2" element={<Course2/>}/>
     </Routes>
+
+  
    </div>
   );
 }

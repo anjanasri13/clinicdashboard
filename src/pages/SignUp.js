@@ -39,12 +39,12 @@ export default function SignUp() {
         <Label title={"Country"} />
         <Input placeholder="UAE" className='w-[50%] ml-[250px]' id="inputID" type='text' onClick={country}/>
         <Button  shape="round" id='button' onClick={verify}
-            className="ml-[290px] mt-[20px] w-[34%] bg-[#1565C0] text-[#FFFFFF] text-[18px]"
+            className="ml-[290px] mt-[20px] w-[34%] bg-[#1565C0] text-[#FFFFFF] text-[18px] pb-[30px]"
             >Signup</Button>
       
         </div>
 
-    </div>
+    </div> 
     
   )
 }

@@ -1,4 +1,4 @@
-import { Input, Button } from "antd";
+import { Input } from "antd";
 import React from "react";
 import Main from "../components/Main";
 import { navigate, useNavigate } from "react-router-dom";
@@ -28,14 +28,9 @@ export default function ForgetPass() {
             id="input"
           />
           <br />
-          <Button
-            shape="round" id='button'
-            className="ml-[260px] mt-[20px] w-[33%] bg-[#1565C0] text-[#FFFFFF] text-[18px]"
-            onClick={forgetlogin}
-          >
+          <button className="ml-[260px] mt-[40px] w-[33%] bg-[#1565C0] text-[#FFFFFF] text-[20px] rounded-[20px] pt-[3px]"  onClick={forgetlogin}>
             Login
-          </Button>
-        
+          </button>
         </div>
       </div>
     </div>

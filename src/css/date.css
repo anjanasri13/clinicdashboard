@@ -1,0 +1,25 @@
+.date-day-slider-container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .slick-slider {
+    width: 100%;
+  }
+  
+  .day-item {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+  }
+  .day {
+    font-weight: bold;
+  }
+  
+  .slick-center .day-item {
+    background-color: #3498db;
+    color: #fff;
+  }

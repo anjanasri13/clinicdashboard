@@ -6,13 +6,16 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter} from "react-router-dom";
 import './flags.css';
 import { PrimeReactProvider } from 'primereact/api';
+import { StyledEngineProvider } from '@mui/material/styles';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
      <BrowserRouter>
      <PrimeReactProvider>
+     <StyledEngineProvider injectFirst>
             <App />
+            </StyledEngineProvider>
         </PrimeReactProvider>
     </BrowserRouter>
   </React.StrictMode>
