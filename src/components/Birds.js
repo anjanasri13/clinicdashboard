@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Birds({bgcolor,title,src,ml}) {
+export default function Birds({bgcolor,title,src}) {
   return (
     <div>
-       <div className={`rounded-[20px] ${bgcolor} w-[355px] h-[230px] ${ml}`}>
+       <div className={`rounded-[20px] ${bgcolor} w-[355px] h-[230px] ml-[50px]`}>
             <div className="flex">
                 <p className="text-[#000] text-[20px] font-medium px-[30px] pt-[50px] mt-[10px]" >{title}</p>
                 <img src={src} style={{opacity: 0.9,height:'54px',width:'54px',marginLeft:'130px',marginTop:'50px'}}/>
