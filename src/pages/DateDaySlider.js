@@ -19,7 +19,7 @@ const DateDaySlider = ({  dateData, onDayClick }) => {
       centerMode: true,
       focusOnSelect: true,
       vertical: false,
-      autoplay: true,        // Auto play the slider
+      autoplay: true,        
       autoplaySpeed: 2000, 
     };
   

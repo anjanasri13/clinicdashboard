@@ -37,16 +37,17 @@ export default function Header() {
   return (
     <div className="flex  border-2 border-[#000000] rounded-[40px] w-[95%] ml-[22px] mt-[15px] h-[76px]">
       <div className="flex">
-        <div className="bg-black h-[85px] w-[85px] rounded-full text-center align-center justify-center flex flex-col ml-[-5px]">
+        <div className="bg-black h-[85px] w-[89px] rounded-full text-center align-center justify-center flex flex-col ml-[-5px] mt-[-5px]">
           <p className="text-white text-[19px] font-normal ">IDEA BOX</p>
         </div>
 
         <Input
           placeholder="Search any course"
           prefix={<SearchOutlined className="site-form-item-icon" />}
-          className="w-[300px] h-[40px] mt-[20px] rounded-[20px] ml-[15px] "
+          className="w-[300px] h-[40px] mt-[15px] rounded-[20px] ml-[15px] "
         ></Input>
       </div>
+    
 
       <div className="flex  w-[20%] justify-evenly items-center ml-[750px]">
         {/* <Menu title={"Title"} color={"text-[red]"} /> */}
