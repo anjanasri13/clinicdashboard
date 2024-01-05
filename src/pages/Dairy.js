@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../components/Header";
-
 import "react-multi-carousel/lib/styles.css";
 import DatePicker from "react-horizontal-datepicker";
 

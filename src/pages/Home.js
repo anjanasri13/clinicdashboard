@@ -13,21 +13,19 @@ import { useNavigate } from "react-router-dom";
 import { CourseData } from "../services/data";
 
 
+import Carousel1 from "./Carousel";
+import Carousel2 from "./Carousel2";
+import Carousel3 from "./Carousel3";
+
 export default function Home() {
-
-   const navigate=useNavigate();
-
-   const Course2 = () =>{
-    navigate("/course2")
-   }
   return (
     <div>
       <Header />
-          <p className="text-[#000] font-[18px]  font-medium ml-[60px] mt-[10px] mb-[2px]">My Courses</p>
+          {/* <p className="text-[#000] font-[18px]  font-medium ml-[60px] mt-[10px] mb-[2px]">My Courses</p>
 
           {/* https://www.npmjs.com/package/react-multi-carousel */}
 
-      <div className="flex justify-evenly">
+      {/* <div className="flex justify-evenly">
          <Homeflex title={CourseData[0].title} src={CourseData[0].img} />
 
          <div className="rounded-[20px] bg-[#F5F5F5] w-[503px] h-[310px] mt-[-10px]">
@@ -57,16 +55,18 @@ export default function Home() {
         <Birds title={"Birds"} src={bird} bgcolor={"bg-[#DEDEDE]"} ml={"ml-[70px]"}/>
         <Birds title={"Alphabets"} src={abc} bgcolor={"bg-[#C4C4C4]"} ml={"ml-[160px]"}/>
         <Birds title={"Alphabets"}  src={abc} bgcolor={"bg-[#4E4949B8]"} ml={"ml-[150px]"}/>
-      </div>
+      </div>  */}
 
 
       {/* https://www.primefaces.org/primereact-v8/carousel/ */}
+   
 
-
-
-     
-    
-  
+      <p className="text-[#000] font-[18px]  font-medium ml-[60px] mt-[10px] mb-[2px]">My Courses</p>
+            <Carousel1/>      {/* https://reactjsexample.com/react-responsive-carousel-component-with-grid-layout-to-easily-create-a-carousel-like-photo-gallery/ */}
+      <p className="text-[#000] font-[18px]  font-medium ml-[60px] mt-[2px] mb-[2px]">New Courses</p>
+            <Carousel2/>
+      <p className="text-[#000] font-[18px]  font-medium ml-[60px] mt-[20px] mb-[2px]">Related courses</p>
+            <Carousel3/>
     </div>
   );
 }
