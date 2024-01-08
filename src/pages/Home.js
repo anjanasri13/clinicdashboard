@@ -11,6 +11,7 @@ import Alpha from "../components/Alpha";
 import Birds from "../components/Birds";
 import { useNavigate } from "react-router-dom";
 import { CourseData } from "../services/data";
+import Subscription from "../components/Subscription";
 
 
 import Carousel1 from "./Carousel";
@@ -21,6 +22,7 @@ export default function Home() {
   return (
     <div>
       <Header />
+      <Subscription />
           {/* <p className="text-[#000] font-[18px]  font-medium ml-[60px] mt-[10px] mb-[2px]">My Courses</p>
 
           {/* https://www.npmjs.com/package/react-multi-carousel */}
@@ -67,6 +69,8 @@ export default function Home() {
             <Carousel2/>
       <p className="text-[#000] font-[18px]  font-medium ml-[60px] mt-[20px] mb-[2px]">Related courses</p>
             <Carousel3/>
+
+           
     </div>
   );
 }

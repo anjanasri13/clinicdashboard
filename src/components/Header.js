@@ -51,7 +51,7 @@ export default function Header() {
 
       <div className="flex  w-[20%] justify-evenly items-center ml-[750px]">
         {/* <Menu title={"Title"} color={"text-[red]"} /> */}
-        <Menu title={"Title"}  color={"text-[red]"} /><span style={{borderRight:"2px solid",height:'20px'}}></span>
+        <Menu title={"Title"} to={"/subscription"} color={"text-[red]"} /><span style={{borderRight:"2px solid",height:'20px'}}></span>
         <Menu title={"My Diary"} to={"/dairy"}/><span style={{borderRight:"2px solid",height:'20px'}}></span>
         <Menu title={"Programs"} to={"/programs"} /><span style={{borderRight:"2px solid",height:'20px'}}></span>
 

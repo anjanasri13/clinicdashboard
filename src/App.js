@@ -19,6 +19,8 @@ import { Fab } from '@mui/material';
 import Faq from './pages/Faq';
 import Dairy from './pages/Dairy';
 import Course2 from './pages/Course2';
+import Subscription from './components/Subscription';
+import Payment from './pages/Payment';
 
 
 
@@ -38,6 +40,7 @@ function App() {
       <Route path="/changepass" element={<Changepassword/>}/>
       <Route path="/verify" element={<Verifypassword/>}/>
       <Route path="/country" element={<Country/>}/>
+      <Route path="/subscription" element={<Subscription/>}/>
       <Route path='/dairy' element={<Dairy/>}/>
       <Route path="/programs" element={<Programs/>}/>
       <Route path="/activity" element={<Activity/>}/>
@@ -47,6 +50,7 @@ function App() {
       <Route path="/feedback" element={<Feedback/>}/>
       <Route path="/faq" element={<Faq/>}/>
       <Route path="/course2" element={<Course2/>}/>
+      <Route path="/payment" element={<Payment/>}/>
     </Routes>
 
   
