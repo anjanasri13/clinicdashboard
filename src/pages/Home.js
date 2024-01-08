@@ -70,3 +70,5 @@ export default function Home() {
     </div>
   );
 }
+// https://mdbootstrap.com/docs/react/components/modal/
+
