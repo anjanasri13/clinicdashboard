@@ -47,12 +47,12 @@ export default function Login() {
           <br />
         </div>
           <button className="ml-[230px] w-[310px] h-[49px] text-[20px] bg-[#1565C0] rounded-[20px] text-white font-normal"  onClick={navigateHome}>Login</button>
-        <p
+        <button
           className="text-[22px] font-normal text-[#000000] ml-[300px] mt-[25px]"
           onClick={forget}
         >
           Forgot password?
-        </p>
+        </button>
         <Button shape="round" id='button'  style={{
            backgroundColor:'#1565C0',
             marginLeft: "260px",
@@ -62,7 +62,7 @@ export default function Login() {
             color: "#FAFAFA",
             fontSize: "20px",
             marginTop: "15px",
-           fontWeight:'normal'
+           fontWeight:'normal',
           }}
           onClick={sign}
         >

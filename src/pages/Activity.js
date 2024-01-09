@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Alpha from '../components/Alpha'
 import Stack from '@mui/joy/Stack';
 import LinearProgress from '@mui/joy/LinearProgress';
+import Carousel2 from './Carousel2';
 
 
 
@@ -30,11 +31,7 @@ export default function Activity() {
       </div>
       
     <p className='text-[#000] text-[20px] font-bold mt-[10px] ml-[60px]'>My Focus Area</p>
-      <div className="flex mt-[10px]">
-         <Alpha  bgcolor={"bg-[#DEDEDE]"} ml={"ml-[70px]"}/>
-         <Alpha  bgcolor={"bg-[#C4C4C4]"} ml={"ml-[160px]"} />
-         <Alpha  bgcolor={"bg-[#4E4949B8]"} ml={"ml-[150px]"}/>
-      </div>
+    <Carousel2/>
 
     <p className='text-[#000] text-[20px] font-bold mt-[10px] ml-[60px]'>Downloaded Files</p>
       <div className='w-[10%] h-[130px] bg-[#F5F5F5] mt-[10px] ml-[60px] rounded-[15px] mb-[15px]'>

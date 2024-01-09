@@ -32,6 +32,9 @@ export default function Subscription() {
         navigate("/payment")
       }
 
+      const freetrial=()=>{
+        navigate("/freetrail")
+      }
   return (
     <div>
       <Modal
@@ -46,7 +49,7 @@ export default function Subscription() {
         <p className='font-bold text-[50px] bg-[#FFFFFF] border-2 ml-[150px] w-[55%] text-center mt-[20px] rounded-[9px]'>Subscription</p>
         <div className='flex gap-5'>
             <div className='bg-[#C4C4C4] w-[176px] h-[315px] mt-[50px]'>
-                <p className='text-[19px] font-medium text-center pt-[50px]'>Free trial</p>
+                <p className='text-[19px] font-medium text-center pt-[50px] cursor-pointer' onClick={freetrial}>Free trial</p>
                 <p className='border-2 border-black rounded-[30px] text-[19px] font-medium text-center w-[60%] ml-[35px] mt-[10px]'>10 days</p>
                 <p className='text-[16px] font-medium ml-[20px] mt-[50px]'>Lorem Ipsum is simply dummy text of the printing and has been the </p>
             </div>

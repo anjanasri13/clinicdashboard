@@ -1,8 +1,16 @@
 import React from 'react'
 import Img from '../components/img'
 import line from'../assests/Line 4.png'
+import { useNavigate } from 'react-router-dom';
 
 export default function Verifypassword() {
+
+  const navigate = useNavigate();
+
+  const navigateHome = () => {
+    navigate("/home");
+  };
+
   return (
     <div>
 
@@ -21,8 +29,9 @@ export default function Verifypassword() {
     <p className='font-normal text-[#BABABA] text-[20px]  text-center  mt-[100px]'>If you didn’t receive a code.
     <button className='text-[#000]'>Resend</button></p>
 
-    <button className='bg-[#C4C4C4] rounded-[15px] w-[10%] py-[5px] ml-[700px] mt-[40px]' type='submit'>Submit</button>
-    <button className='bg-[#DEDEDE] '>Restart</button>
+    <button className='bg-[#C4C4C4] rounded-[15px] w-[10%] py-[5px] ml-[700px] mt-[40px]' type='submit'
+    onClick={navigateHome}>Submit</button>
+  
 
     </div>
   )

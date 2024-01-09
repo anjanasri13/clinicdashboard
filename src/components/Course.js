@@ -3,11 +3,11 @@ import abc from '../assests/abc.png'
 import { useNavigate } from 'react-router-dom';
 
 
-export default function Homeflex({title,src,src1, subtitle, desc,nxttitle}) {
+export default function Homeflex({title,src,subtitle, desc,nxttitle}) {
   const navigate=useNavigate();
 
   const Course2 = () =>{
-   navigate("/course2", { state: { title, src,src1, training: "Training", subtitle, desc,nxttitle} })
+   navigate("/course2", { state: { title, src,training: "Training", subtitle, desc,nxttitle} })
   }
   return (
     <div>
