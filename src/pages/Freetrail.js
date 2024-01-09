@@ -42,7 +42,7 @@ export default function () {
     <div className='flex'>
         <div className="flex ml-[50px]">
          <Alpha  bgcolor={"bg-[#DEDEDE]"} ml={"ml-[70px]"}/>
-         <Alpha  bgcolor={"bg-[#C4C4C4]"} ml={"ml-[160px]"} />
+         <Alpha  bgcolor={"bg-[#C4C4C4]"} ml={"ml-[160px]"}/>
         </div>       
     </div>
 </div>

@@ -21,6 +21,8 @@ import Dairy from './pages/Dairy';
 import Course2 from './pages/Course2';
 import Payment from './pages/Payment';
 import Freetrail from './pages/Freetrail';
+import Fine from './pages/Fine';
+import Abtcourse from './pages/Abtcourse';
 
 
 
@@ -51,6 +53,8 @@ function App() {
       <Route path="/course2" element={<Course2/>}/>
       <Route path="/payment" element={<Payment/>}/>
       <Route path='/freetrail' element={<Freetrail/>}/>
+      <Route path='/fine' element={<Fine/>}/>
+      <Route path='abtcourse' element={<Abtcourse/>}/>
     </Routes>
 
   

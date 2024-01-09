@@ -20,13 +20,19 @@ export default function Subscription() {
 
      const navigate=useNavigate();
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setOpen(true)
-        }, 2000)
-        return () => clearTimeout(timer)
-    }, [])
-
+    // useEffect(() => {
+    //     const timer = setTimeout(() => {
+    //         setOpen(true)
+    //     }, 2000)
+    //     return () => clearTimeout(timer)
+    // }, [])
+ 
+    useEffect(()=>{
+      const timer=setTimeout(() => {
+        setOpen()
+      },3000)
+      return()=>clearTimeout(timer)
+    },[])
 
     const payment=()=>{
         navigate("/payment")

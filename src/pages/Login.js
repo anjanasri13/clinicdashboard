@@ -33,18 +33,17 @@ export default function Login() {
             variant="standard"
             className="w-[60%]"
           />
-          <br />
-          <br />
+          <br/>
+          <br/>
           <TextField
             id="standard-basic"
             label="Password"
             type="password"
             variant="standard"
             className="w-[60%]"
-           
-          />
-          <br />
-          <br />
+           />
+          <br/>
+          <br/>
         </div>
           <button className="ml-[230px] w-[310px] h-[49px] text-[20px] bg-[#1565C0] rounded-[20px] text-white font-normal"  onClick={navigateHome}>Login</button>
         <button

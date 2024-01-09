@@ -6,7 +6,7 @@ export default function Img() {
     <div>
       <img
         src={line}
-        className={`w-[49px] h-[1px] text-[#7A7A7A] flex items-center justify-evenly text-center `}
+        className={`w-[49px] h-[1px] text-[#7A7A7A] flex items-center justify-evenly text-center`}
       />
     </div>
   );
