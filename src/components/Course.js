@@ -7,7 +7,7 @@ export default function Homeflex({title,src,subtitle, desc,nxttitle}) {
   const navigate=useNavigate();
 
   const Course2 = () =>{
-   navigate("/course2", { state: { title, src,training: "Training", subtitle, desc,nxttitle} })
+   navigate("/course2", { state: {title,src,training: "Training",subtitle,desc,nxttitle}})
   }
   return (
     <div>

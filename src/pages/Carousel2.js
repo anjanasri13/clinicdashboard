@@ -8,6 +8,7 @@ const data = [
     },
     {
         bgcolor: "bg-[#C4C4C4]",
+        title: "Course:2",
     },
     {
         bgcolor: "bg-[#4E4949B8]",
@@ -30,7 +31,7 @@ export default function Carousel2 (){
         {data.map((item, index) => (
 
          <Carousel.Item key={index}>
-             <Alpha  bgcolor={item.bgcolor}/>
+             <Alpha  bgcolor={item.bgcolor} title={item.title}/>
          </Carousel.Item>
         ))}
       </Carousel>

@@ -23,6 +23,7 @@ import Payment from './pages/Payment';
 import Freetrail from './pages/Freetrail';
 import Fine from './pages/Fine';
 import Abtcourse from './pages/Abtcourse';
+import Course2A from './pages/Course2A';
 
 
 
@@ -51,6 +52,7 @@ function App() {
       <Route path="/feedback" element={<Feedback/>}/>
       <Route path="/faq" element={<Faq/>}/>
       <Route path="/course2" element={<Course2/>}/>
+      <Route path='/course2A' element={<Course2A/>}/>
       <Route path="/payment" element={<Payment/>}/>
       <Route path='/freetrail' element={<Freetrail/>}/>
       <Route path='/fine' element={<Fine/>}/>

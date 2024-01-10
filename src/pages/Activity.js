@@ -24,14 +24,14 @@ export default function Activity() {
           <p className='ml-[80px]'>Your Goal</p>
         </div>
      
-        <Stack spacing={2} sx={{ flex: 1 }} className='mt-[40px] w-[80%] ml-[50px] text-[red]'>
-         <LinearProgress determinate value={20} variant="solid" size="lg"/>
+        <Stack spacing={2} sx={{flex:1}} className='mt-[40px] w-[80%] ml-[50px]'>
+            <LinearProgress determinate value={20} variant="solid" size="lg"/>
         </Stack>
-        <p className='mt-[10px] ml-[50px] tetx-[16px] font-medium '>10 %  Training Completed</p>
+        <p className='mt-[10px] ml-[50px] tetx-[16px] font-medium'>10 %  Training Completed</p>
       </div>
       
     <p className='text-[#000] text-[20px] font-bold mt-[10px] ml-[60px]'>My Focus Area</p>
-    <Carousel2/>
+        <Carousel2/>
 
     <p className='text-[#000] text-[20px] font-bold mt-[10px] ml-[60px]'>Downloaded Files</p>
       <div className='w-[10%] h-[130px] bg-[#F5F5F5] mt-[10px] ml-[60px] rounded-[15px] mb-[15px]'>
