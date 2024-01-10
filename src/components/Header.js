@@ -68,7 +68,7 @@ export default function Header() {
          : null} */}
 
     <Dropdown label="" dismissOnClick={false} renderTrigger={() => <span style={{cursor:'pointer',fontSize:'14px',fontWeight:'500'}}>Profile</span>}>
-      <div className="bg-white border-2 border-solid border-black w-[191px] h-[278px] pl-[5px] text-[14px] font-medium text-[#000] z-10	">
+      <div className="bg-white border-2 border-solid border-black w-[191px] h-[278px] pl-[5px] text-[14px] font-medium text-[#000] z-10">
       <Dropdown.Item onClick={activity}>My Activities</Dropdown.Item>
       <Dropdown.Item onClick={account}>My Account</Dropdown.Item>
       <Dropdown.Item onClick={support}>Help & Support</Dropdown.Item>
