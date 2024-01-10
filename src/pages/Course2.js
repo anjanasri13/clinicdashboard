@@ -13,7 +13,7 @@ export default function Course2() {
          {/* <h1>{training}</h1> */}
       <Header/>
       <h1 className='text-center text-[20px] mt-[10px] font-normal'>{title}</h1>
-      <a href='' >{src && <img src={cloud} alt="Course Image" className='w-[48px] h-[48px] ml-[1400px]'/>}</a>
+           <a href='' >{src && <img src={cloud} alt="Course Image" className='w-[48px] h-[48px] ml-[1400px]'/>}</a>
        <div className=' w-[81%] h-[640px] bg-[#D6D6D6B5] mt-[20px] ml-[130px] rounded-[22px] overflow-y-auto	pb-[30px] '>
         <p className='text-[16px] font-bold mt-[20px] ml-[40px]'>{subtitle}</p>
         <p className='text-[16px] font-medium mt-[20px] ml-[40px] mr-[0px]'>{desc}</p>

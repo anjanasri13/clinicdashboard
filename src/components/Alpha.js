@@ -2,12 +2,12 @@ import React from 'react'
 import abc from '../assests/abc.png'
 import { useNavigate } from 'react-router-dom'
 
-export default function Alpha({bgcolor,title}) {
+export default function Alpha({bgcolor,title,subtitle,button}) {
 
      const navigate=useNavigate();
 
      const Course2A =()=>{
-      navigate("/course2A",{state:{title}})
+      navigate("/course2A",{state:{title,subtitle,button}})
      }
   return (
     <div>

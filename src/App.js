@@ -24,6 +24,7 @@ import Freetrail from './pages/Freetrail';
 import Fine from './pages/Fine';
 import Abtcourse from './pages/Abtcourse';
 import Course2A from './pages/Course2A';
+import Submitalpha from './pages/Submitalpha';
 
 
 
@@ -56,7 +57,8 @@ function App() {
       <Route path="/payment" element={<Payment/>}/>
       <Route path='/freetrail' element={<Freetrail/>}/>
       <Route path='/fine' element={<Fine/>}/>
-      <Route path='abtcourse' element={<Abtcourse/>}/>
+      <Route path='/abtcourse' element={<Abtcourse/>}/>
+      <Route path='/submitaplpha' element={<Submitalpha/>}/>
     </Routes>
 
   
