@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^5.2.6",
+    "@aws-amplify/ui-react": "^6.1.0",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "@flaticon/flaticon-uicons": "^3.1.0",
@@ -22,6 +23,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "antd": "^5.12.5",
+    "aws-amplify": "^6.0.11",
     "better-react-carousel": "^1.1.2",
     "bootstrap": "^5.3.2",
     "flowbite-react": "^0.7.2",

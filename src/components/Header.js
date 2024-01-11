@@ -4,6 +4,7 @@ import { SearchOutlined } from "@ant-design/icons";
 import Menu from "./Menu";
 import { Link, useNavigate } from "react-router-dom";
 import { Dropdown } from 'flowbite-react';
+import { Divider, Flex, Text } from "@aws-amplify/ui-react";
 
 
 export default function Header() {
@@ -51,12 +52,13 @@ export default function Header() {
 
       <div className="flex  w-[20%] justify-evenly items-center ml-[750px]">
         {/* <Menu title={"Title"} color={"text-[red]"} /> */}
-        <Menu title={"Title"} color={"text-[red]"} /><span style={{borderRight:"2px solid",height:'20px'}}></span>
-        <Menu title={"My Diary"} to={"/dairy"}/><span style={{borderRight:"2px solid",height:'20px'}}></span>
-        <Menu title={"Programs"} to={"/programs"} /><span style={{borderRight:"2px solid",height:'20px'}}></span>
+       <Flex direction="row"> <Menu title={"Title"} /><Divider  orientation="vertical" /> </Flex>
+       <Flex direction="row"> <Menu title={"My Diary"} to={"/dairy"}/><Divider  orientation="vertical" /> </Flex>
+       <Flex direction="row"> <Menu title={"Programs"} to={"/programs"}/><Divider  orientation="vertical" /> </Flex>
 
-
-        {/* <Menu title={"Profile"} /> */}
+        {/* <Menu title={"My Diary"} to={"/dairy"}/><span style={{borderRight:"2px solid",height:'20px'}}></span>
+        <Menu title={"Programs"} to={"/programs"}/><span style={{borderRight:"2px solid",height:'20px'}}></span>
+        <Menu title={"Profile"} /> */}
 
 
 
@@ -69,13 +71,13 @@ export default function Header() {
 
     <Dropdown label="" dismissOnClick={false} renderTrigger={() => <span style={{cursor:'pointer',fontSize:'14px',fontWeight:'500'}}>Profile</span>}>
       <div className="bg-white border-2 border-solid border-black w-[191px] h-[278px] pl-[5px] text-[14px] font-medium text-[#000] z-10">
-      <Dropdown.Item onClick={activity}>My Activities</Dropdown.Item>
-      <Dropdown.Item onClick={account}>My Account</Dropdown.Item>
-      <Dropdown.Item onClick={support}>Help & Support</Dropdown.Item>
-      <Dropdown.Item onClick={feedback}>Feedback </Dropdown.Item>
-      <Dropdown.Item onClick={faq}>FAQ’s </Dropdown.Item>
-      <Dropdown.Item>App Settings </Dropdown.Item>
-      <Dropdown.Item>Sign Out </Dropdown.Item>
+           <Dropdown.Item onClick={activity}>My Activities</Dropdown.Item>
+           <Dropdown.Item onClick={account}>My Account</Dropdown.Item>
+           <Dropdown.Item onClick={support}>Help & Support</Dropdown.Item>
+           <Dropdown.Item onClick={feedback}>Feedback </Dropdown.Item>
+           <Dropdown.Item onClick={faq}>FAQ’s </Dropdown.Item>
+           <Dropdown.Item>App Settings </Dropdown.Item>
+           <Dropdown.Item>Sign Out </Dropdown.Item>
       </div>
     </Dropdown>
       </div>

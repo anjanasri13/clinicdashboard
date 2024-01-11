@@ -12,6 +12,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import verify from '../assests/verify 1.png'
 import cancel from '../assests/cancel.png'
+import Submitalpha1 from './Submitalpha1';
 
 
 const style = {
@@ -30,8 +31,8 @@ const style = {
     const { title,subtitle,button} = location.state || {};
 
     const navigate=useNavigate();
-    const submitAlpha=()=>{
-        navigate("/submitaplpha")
+    const submitalpha1=()=>{
+        navigate("/submitaplpha1")
     }
 
     const correctIndex = 1;
@@ -94,7 +95,7 @@ const style = {
     
     </div>
        <button className='w-[190px] h-[40px] text-[#FFFFFF] text-[20px] bg-[#959393] rounded-[20px] ml-[670px] mt-[30px]'
-       onClick={submitAlpha}>{button}</button>
+       onClick={submitalpha1}>{button}</button>
 
       <Modal
         open={opencrt}

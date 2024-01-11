@@ -25,6 +25,8 @@ import Fine from './pages/Fine';
 import Abtcourse from './pages/Abtcourse';
 import Course2A from './pages/Course2A';
 import Submitalpha from './pages/Submitalpha';
+import Submitalpha1 from './pages/Submitalpha1';
+import '@aws-amplify/ui-react/styles.css';
 
 
 
@@ -58,7 +60,7 @@ function App() {
       <Route path='/freetrail' element={<Freetrail/>}/>
       <Route path='/fine' element={<Fine/>}/>
       <Route path='/abtcourse' element={<Abtcourse/>}/>
-      <Route path='/submitaplpha' element={<Submitalpha/>}/>
+      <Route path='/submitaplpha1' element={<Submitalpha1/>}/>
     </Routes>
 
   

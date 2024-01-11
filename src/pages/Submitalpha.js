@@ -33,8 +33,8 @@ export default function () {
     <div>
         <Header/>
           <div className='flex justify-between'>
-                <div className='w-[428px] h-[800px] bg-[#C4C4C4] rounded-[9px] ml-[20px] mt-[20px] text-center flex flex-col gap-[12px]'>
-                    <p className='text-[25px] font-bold '>Cource :2</p>
+                <div className='w-[428px] h-[800px] bg-[#C4C4C4] rounded-[9px] ml-[20px] mt-[20px] text-center flex flex-col gap-[15px]'>
+                    <p className='text-[25px] font-bold pt-[5px]'>Cource :2</p>
                     <img src={login} className='w-[107px] h-[105px] bg-[#C4C4C4] ml-[160px]'/>
                     <p className='text-[25px] font-bold '>Congratulation</p>
                     <p className='text-[36px] font-medium'>29 / 30 </p>

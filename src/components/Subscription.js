@@ -29,8 +29,8 @@ export default function Subscription() {
  
     useEffect(()=>{
       const timer=setTimeout(() => {
-        setOpen()
-      },3000)
+        setOpen(true)
+      },1000)
       return()=>clearTimeout(timer)
     },[])
 

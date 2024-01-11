@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <Subscription />
+      <Subscription/>
           {/* <p className="text-[#000] font-[18px]  font-medium ml-[60px] mt-[10px] mb-[2px]">My Courses</p>
 
           {/* https://www.npmjs.com/package/react-multi-carousel */}

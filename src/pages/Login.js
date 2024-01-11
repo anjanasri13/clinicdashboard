@@ -23,7 +23,7 @@ export default function Login() {
       <Main />
 
       <div className="h-[550px] w-[50%]">
-        <p className="text-[25px] font-normal text-[#000000]  mt-[200px] ml-[330px]">
+        <p className="text-[25px] font-normal text-[#000000]  mt-[200px] ml-[340px]">
           Login
         </p>
         <div style={{ marginLeft: "230px", marginTop: "20px" }}>
