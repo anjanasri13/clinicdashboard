@@ -10,7 +10,7 @@ export default function Homeflex({title,src,subtitle, desc,nxttitle}) {
    navigate("/course2", { state: {title,src,training: "Training",subtitle,desc,nxttitle}})
   }
   return (
-    <div>
+    <div >
         <div className="rounded-[20px] bg-[#F5F5F5] w-[355px] h-[253px] ml-[50px]">
             <div className="flex">
                 <p className="text-[#000] text-[20px] font-medium px-[30px] pt-[50px] mt-[10px]" onClick={Course2}>{title}</p>

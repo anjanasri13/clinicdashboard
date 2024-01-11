@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
 import Disorder from "../components/Disorder";
-import { useNavigate } from "react-router-dom";
 
 export default function Programs() {
  

@@ -1,6 +1,5 @@
 import React from 'react'
 import Img from '../components/img'
-import line from'../assests/Line 4.png'
 import { useNavigate } from 'react-router-dom';
 
 export default function Verifypassword() {
@@ -25,11 +24,19 @@ export default function Verifypassword() {
         <img src={line} className='ml-[830px]'/> 
         <img src={line} className='ml-[930px]'/>
         </div> */}
+
+      <div className='mt-[70px]'>
+        <Img ml={"ml-[530px]"}/>
+        <Img ml={"ml-[630px]"}/>
+        <Img ml={"ml-[730px]"}/>
+        <Img ml={"ml-[830px]"}/>
+        <Img ml={"ml-[930px]"}/>
+      </div>  
       
     <p className='font-normal text-[#BABABA] text-[20px]  text-center  mt-[100px]'>If you didn’t receive a code.
     <button className='text-[#000]'>Resend</button></p>
 
-    <button className='bg-[#C4C4C4] rounded-[15px] w-[10%] py-[5px] ml-[700px] mt-[40px]' type='submit'
+    <button className='bg-[#C4C4C4] rounded-[15px] w-[10%] py-[5px] ml-[690px] mt-[40px]' type='submit'
     onClick={navigateHome}>Submit</button>
   
 

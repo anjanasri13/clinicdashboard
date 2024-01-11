@@ -4,7 +4,7 @@ import sign from'../assests/sign.png'
 import { Input } from "@mui/material";
 import { Button } from 'antd';
 import Label from '../components/Label';
-import { useNavigate ,navigate} from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 export default function SignUp() {
 

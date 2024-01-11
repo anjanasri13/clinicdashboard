@@ -1,7 +1,6 @@
 import number from '../assests/numbers.png'
 import abc from '../assests/abc.png'
 import bird from '../assests/bird.png'
-import cloud from '../assests/cloud.png'
 
 export const CourseData = [
     {

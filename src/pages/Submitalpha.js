@@ -28,7 +28,7 @@ const data=[
         title:"Cource :6",
     },
 ]
-export default function () {
+export default function Submitalpha() {
   return (
     <div>
         <Header/>

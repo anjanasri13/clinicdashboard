@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import Accor from '../components/Accordian'
 
-export default function () {
+export default function Faq () {
 
    
 

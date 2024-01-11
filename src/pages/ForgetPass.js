@@ -1,7 +1,7 @@
 import { Input } from "antd";
 import React from "react";
 import Main from "../components/Main";
-import { navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function ForgetPass() {
   const navigate = useNavigate();

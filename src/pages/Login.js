@@ -1,7 +1,7 @@
 import { TextField } from "@mui/material";
 import { Button } from 'antd';
 import React from "react";
-import { navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Main from "../components/Main";
 
 

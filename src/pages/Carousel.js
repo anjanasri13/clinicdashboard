@@ -20,7 +20,7 @@ export default function Carousel1() {
 
       <Carousel cols={3} rows={1} loop >
         {CourseData.map((item, index) => (
-          <Carousel.Item key={index}>
+          <Carousel.Item key={index} >
             <Homeflex title={item.title} src={item.img} subtitle={item.subtitle} desc={item.desc} nxttitle={item.nxttitle}  />
           </Carousel.Item>
         ))}

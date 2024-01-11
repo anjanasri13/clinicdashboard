@@ -12,8 +12,6 @@ import Birds from "../components/Birds";
 import { useNavigate } from "react-router-dom";
 import { CourseData } from "../services/data";
 import Subscription from "../components/Subscription";
-
-
 import Carousel1 from "./Carousel";
 import Carousel2 from "./Carousel2";
 import Carousel3 from "./Carousel3";

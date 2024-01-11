@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Modal from '@mui/material/Modal';
-import { Navigate, useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 
 const style = {
     position: 'absolute',
@@ -10,7 +10,7 @@ const style = {
     left: '50%',
     transform: 'translate(-50%, -50%)',
     width: 700,
-    boxShadow: 10,
+    // boxShadow: 5,
     p: 4,
   };
 
@@ -51,7 +51,7 @@ export default function Subscription() {
         className='mt-[40px]'
       >
         <Box sx={style} className="outline-none">
-            <Button onClick={handleClose} className='text-[#FFFFFF] ml-[550px]'>Close</Button>
+            {/* <Button onClick={handleClose} className='text-[#FFFFFF] ml-[550px]'>Close</Button> */}
         <p className='font-bold text-[50px] bg-[#FFFFFF] border-2 ml-[150px] w-[55%] text-center mt-[20px] rounded-[9px]'>Subscription</p>
         <div className='flex gap-5'>
             <div className='bg-[#C4C4C4] w-[176px] h-[315px] mt-[50px]'>
@@ -75,3 +75,4 @@ export default function Subscription() {
 </div>
   )
 }
+

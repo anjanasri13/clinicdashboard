@@ -4,7 +4,7 @@ import abc from '../assests/abc.png'
 import bird from '../assests/bird.png'
 import Alpha from '../components/Alpha'
 
-export default function () {
+export default function Freetrail() {
   return (
     <div>
       <Header/>
