@@ -34,7 +34,6 @@ import '@aws-amplify/ui-react/styles.css';
 
 function App() {
 
-  const dateArray = ['2024-01-01', '2024-01-02', '2024-01-03', '2024-01-04'];
   return (
    <div>
     <Routes>
