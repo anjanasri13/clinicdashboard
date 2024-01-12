@@ -1,6 +1,7 @@
 {
   "name": "clinicdashboard",
   "version": "0.1.0",
+  "homepage": "https://experiadesign.in/ideabox/",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^5.2.6",
