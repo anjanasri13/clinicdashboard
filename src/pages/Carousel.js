@@ -4,7 +4,6 @@ import { CourseData } from "../services/data";
 import Carousel from "better-react-carousel";
 
 export default function Carousel1() {
- 
   return (
     <div>
       {/* <div className="rounded-[20px] bg-[#F5F5F5] w-[503px] h-[300px] ">
@@ -18,10 +17,16 @@ export default function Carousel1() {
             <button className="text-[#000] text-[20px] font-medium bg-[#DEDEDE] rounded-[20px] w-[140px] h-[31px] mt-[30px] ml-[170px]">Resume</button>
       </div> */}
 
-      <Carousel cols={3} rows={1} loop >
+      <Carousel cols={3} rows={1} loop>
         {CourseData.map((item, index) => (
-          <Carousel.Item key={index} >
-            <Homeflex title={item.title} src={item.img} subtitle={item.subtitle} desc={item.desc} nxttitle={item.nxttitle}  />
+          <Carousel.Item key={index}>
+            <Homeflex
+              title={item.title}
+              src={item.img}
+              subtitle={item.subtitle}
+              desc={item.desc}
+              nxttitle={item.nxttitle}
+            />
           </Carousel.Item>
         ))}
       </Carousel>

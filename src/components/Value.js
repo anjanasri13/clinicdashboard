@@ -1,7 +1,15 @@
-import React from 'react'
+import React from "react";
 
-export default function Value({value, onClick }) {
+export default function Value({ value, onClick }) {
   return (
-    <div onClick={onClick} style={{backgroundColor: "#4E4949", height: value, width: 60, cursor: "pointer"}}/>
-  )
+    <div
+      onClick={onClick}
+      style={{
+        backgroundColor: "#4E4949",
+        height: value,
+        width: 60,
+        cursor: "pointer",
+      }}
+    />
+  );
 }

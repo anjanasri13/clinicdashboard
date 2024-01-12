@@ -3,11 +3,10 @@ import Header from "../components/Header";
 import Disorder from "../components/Disorder";
 
 export default function Programs() {
- 
   return (
     <div>
       <Header />
-      <p className="text-[30px] text-[#000] font-normal text-center mt-[15px]" >
+      <p className="text-[30px] text-[#000] font-normal text-center mt-[15px]">
         Programs
       </p>
 

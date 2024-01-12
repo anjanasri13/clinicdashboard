@@ -2,11 +2,11 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 export default function Disorder({ title }) {
-  const navigate=useNavigate();
+  const navigate = useNavigate();
 
-  const fine = () =>{
-    navigate("/fine")
-  }
+  const fine = () => {
+    navigate("/fine");
+  };
   return (
     <div>
       <div

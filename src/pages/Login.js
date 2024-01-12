@@ -1,9 +1,8 @@
 import { TextField } from "@mui/material";
-import { Button } from 'antd';
+import { Button } from "antd";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import Main from "../components/Main";
-
 
 export default function Login() {
   const navigate = useNavigate();
@@ -33,27 +32,35 @@ export default function Login() {
             variant="standard"
             className="w-[60%]"
           />
-          <br/>
-          <br/>
+          <br />
+          <br />
           <TextField
             id="standard-basic"
             label="Password"
             type="password"
             variant="standard"
             className="w-[60%]"
-           />
-          <br/>
-          <br/>
+          />
+          <br />
+          <br />
         </div>
-          <button className="ml-[230px] w-[310px] h-[49px] text-[20px] bg-[#1565C0] rounded-[20px] text-white font-normal"  onClick={navigateHome}>Login</button>
+        <button
+          className="ml-[230px] w-[310px] h-[49px] text-[20px] bg-[#1565C0] rounded-[20px] text-white font-normal"
+          onClick={navigateHome}
+        >
+          Login
+        </button>
         <button
           className="text-[22px] font-normal text-[#000000] ml-[300px] mt-[25px]"
           onClick={forget}
         >
           Forgot password?
         </button>
-        <Button shape="round" id='button'  style={{
-           backgroundColor:'#1565C0',
+        <Button
+          shape="round"
+          id="button"
+          style={{
+            backgroundColor: "#1565C0",
             marginLeft: "260px",
             width: "250px",
             height: "49px",
@@ -61,16 +68,13 @@ export default function Login() {
             color: "#FAFAFA",
             fontSize: "20px",
             marginTop: "15px",
-           fontWeight:'normal',
+            fontWeight: "normal",
           }}
           onClick={sign}
         >
           I’M NEW HERE
         </Button>
-        <button
-          className="text-[22px] font-normal text-[#000000] ml-[300px] mt-[20px]"
-         
-        >
+        <button className="text-[22px] font-normal text-[#000000] ml-[300px] mt-[20px]">
           Continue As Guest
         </button>
       </div>

@@ -3,10 +3,10 @@ import Search from "antd/es/input/Search";
 import { Input } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
 import Header from "../components/Header";
-import abc from '../assests/abc.png'
-import bird from '../assests/bird.png'
+import abc from "../assests/abc.png";
+import bird from "../assests/bird.png";
 import Homeflex from "../components/Course";
-import number from '../assests/numbers.png'
+import number from "../assests/numbers.png";
 import Alpha from "../components/Alpha";
 import Birds from "../components/Birds";
 import { useNavigate } from "react-router-dom";
@@ -20,11 +20,10 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <Subscription/>
-          {/* <p className="text-[#000] font-[18px]  font-medium ml-[60px] mt-[10px] mb-[2px]">My Courses</p>
+      <Subscription />
+      {/* <p className="text-[#000] font-[18px]  font-medium ml-[60px] mt-[10px] mb-[2px]">My Courses</p>
 
           {/* https://www.npmjs.com/package/react-multi-carousel */}
-
       {/* <div className="flex justify-evenly">
          <Homeflex title={CourseData[0].title} src={CourseData[0].img} />
 
@@ -56,21 +55,21 @@ export default function Home() {
         <Birds title={"Alphabets"} src={abc} bgcolor={"bg-[#C4C4C4]"} ml={"ml-[160px]"}/>
         <Birds title={"Alphabets"}  src={abc} bgcolor={"bg-[#4E4949B8]"} ml={"ml-[150px]"}/>
       </div>  */}
-
-
       {/* https://www.primefaces.org/primereact-v8/carousel/ */}
-   
-
-      <p className="text-[#000] font-[18px]  font-medium ml-[60px] mt-[10px] mb-[2px]">My Courses</p>
-            <Carousel1/>      {/* https://reactjsexample.com/react-responsive-carousel-component-with-grid-layout-to-easily-create-a-carousel-like-photo-gallery/ */}
-      <p className="text-[#000] font-[18px]  font-medium ml-[60px] mt-[2px] mb-[2px]">New Courses</p>
-            <Carousel2/>
-      <p className="text-[#000] font-[18px]  font-medium ml-[60px] mt-[20px] mb-[2px]">Related courses</p>
-            <Carousel3/>
-
-           
+      <p className="text-[#000] font-[18px]  font-medium ml-[60px] mt-[10px] mb-[2px]">
+        My Courses
+      </p>
+      <Carousel1 />{" "}
+      {/* https://reactjsexample.com/react-responsive-carousel-component-with-grid-layout-to-easily-create-a-carousel-like-photo-gallery/ */}
+      <p className="text-[#000] font-[18px]  font-medium ml-[60px] mt-[2px] mb-[2px]">
+        New Courses
+      </p>
+      <Carousel2 />
+      <p className="text-[#000] font-[18px]  font-medium ml-[60px] mt-[20px] mb-[2px]">
+        Related courses
+      </p>
+      <Carousel3 />
     </div>
   );
 }
 // https://mdbootstrap.com/docs/react/components/modal/
-

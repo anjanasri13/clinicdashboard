@@ -1,7 +1,7 @@
 import React from "react";
 import line from "../assests/Line 4.png";
 
-export default function Img({ml}) {
+export default function Img({ ml }) {
   return (
     <div>
       <img

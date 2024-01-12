@@ -5,16 +5,21 @@ import DatePicker from "react-horizontal-datepicker";
 
 export default function Dairy() {
   return (
-    <div >
-
+    <div>
       <Header />
       <p className="text-[25px] font-normal text-center mt-[15px]">My Diary</p>
-     
 
-      <div style={{ display: "flex", width: "100%",justifyContent:'center' }}>
-        <div style={{ width: "45%", alignItems: "center", display: "flex" ,paddingLeft:'-10px'}}>
-          <DatePicker color={"#4E4949B8"} endDate={365}  />
-           {/* https://github.com/kush-agra/react-horizontal-datepicker/tree/master */}
+      <div style={{ display: "flex", width: "100%", justifyContent: "center" }}>
+        <div
+          style={{
+            width: "45%",
+            alignItems: "center",
+            display: "flex",
+            paddingLeft: "-10px",
+          }}
+        >
+          <DatePicker color={"#4E4949B8"} endDate={365} />
+          {/* https://github.com/kush-agra/react-horizontal-datepicker/tree/master */}
         </div>
       </div>
 

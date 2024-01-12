@@ -28,7 +28,10 @@ export default function ForgetPass() {
             id="input"
           />
           <br />
-          <button className="ml-[260px] mt-[40px] w-[33%] bg-[#1565C0] text-[#FFFFFF] text-[20px] rounded-[20px] pt-[3px]"  onClick={forgetlogin}>
+          <button
+            className="ml-[260px] mt-[40px] w-[33%] bg-[#1565C0] text-[#FFFFFF] text-[20px] rounded-[20px] pt-[3px]"
+            onClick={forgetlogin}
+          >
             Login
           </button>
         </div>
